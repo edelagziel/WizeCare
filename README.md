@@ -21,6 +21,12 @@ Video
   -> browser playback
 ```
 
+## Demo
+
+![WizeCare multilingual video player](docs/assets/wizecare-multilingual-player.png)
+
+*Multilingual video playback with selectable localized audio tracks.*
+
 ## Engineering Highlights
 
 - Python orchestration across transcription, translation, TTS, and packaging

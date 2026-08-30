@@ -93,6 +93,12 @@ Become_Video/
 Each HLS conversion can remove prior matching playlists/segments and uses FFmpeg
 overwrite behavior. Cleanup is separately opt-in through `WIZECARE_CLEANUP=1`.
 
+## Browser delivery preview
+
+![WizeCare multilingual video player](assets/wizecare-multilingual-player.png)
+
+*Portfolio preview of physiotherapy playback with selectable localized audio tracks.*
+
 ## External systems and models
 
 - FFmpeg: media conversion and HLS segment generation
