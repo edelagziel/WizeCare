@@ -1,0 +1,10 @@
+# Canonical WizeCare pipeline Python dependencies.
+# Install a platform-compatible PyTorch/WhisperX build before running the pipeline.
+azure-cognitiveservices-speech
+ollama
+pydub
+python-dotenv
+requests
+torch
+transformers
+whisperx

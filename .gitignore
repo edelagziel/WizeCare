@@ -1,0 +1,112 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.tools/
+venv/
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+coverage/
+
+# Local models and caches
+.cache/
+cache/
+hf_cache/
+model_cache/
+*.pkl
+*.db
+*.sqlite
+*.bak
+
+# Vendored legacy repository; preserve locally but exclude from publication
+/project/text to audio/TTS/
+
+# Temporary and generated pipeline data
+temp/
+Temp/
+audiofile/
+audioDone/
+done_all/
+doneVideos/
+doneHeb/
+done_m4a/
+finiseVideo/
+mp4a/
+output/
+output_audio/
+TextFiles/
+WAV/
+wavdone/
+videos/
+LLM LOCAL/out/
+project/LLM LOCAL/out/
+
+# Media and HLS output
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.m3u8
+
+# HLS transport-stream segments in known generated-output directories.
+Become_Video/video*/high/*.ts
+Become_Video/video*/medium/*.ts
+Become_Video/video*/low/*.ts
+Become_Video/video*/verylow/*.ts
+Become_Video/high/*.ts
+Become_Video/medium/*.ts
+Become_Video/low/*.ts
+Become_Video/verylow/*.ts
+Become_Video/video*/audio_*/*.ts
+Become_Video/audio_*/*.ts
+*.zip
+
+# Generated language folders
+Become_Video/video*/audio_*/
+Become_Video/video*/high/
+Become_Video/video*/medium/
+Become_Video/video*/low/
+Become_Video/video*/verylow/
+
+# Local generated/demo pages approved for local use only
+/Become_Video/video1[2-9]/
+/Become_Video/video2[0-9]/
+/Become_Video/video3[0-2]/
+
+# Local reference document retained outside repository history
+/documentation.docx
+Become_Video/audio_*/
+Become_Video/high/
+Become_Video/medium/
+Become_Video/low/
+Become_Video/verylow/
+
+# Legacy JW Player generated HLS and media outputs
+jw_player/HLS_LANGUAGES/audio_*/
+jw_player/HLS_LANGUAGES/video/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

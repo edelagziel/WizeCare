@@ -1,0 +1,9 @@
+Rewrite the following instructions in English to make them clear, complete, and suitable for accurate medical translation.
+
+Guidelines:
+- Begin each sentence with a clear subject and verb.
+- Avoid sentence fragments or vague phrases (e.g., “Elbows locked”). Replace them with full, descriptive instructions.
+- Use specific and accurate action verbs (e.g., “extend”, “return”, “keep”, “place”).
+- Maintain the original sequence of steps without adding or omitting actions.
+- Keep the tone calm, instructional, and suitable for physical therapy or rehabilitation contexts.
+- Do not alter the meaning or intent — only rewrite for clarity and fluency.

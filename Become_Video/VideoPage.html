@@ -1,0 +1,43 @@
+<!--
+  This is a simple HTML page demonstrating HLS video playback using Video.js.
+  The page loads the Video.js library and its default CSS from CDN.
+  The video element is configured to play an HLS stream (master.m3u8).
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Video.js HLS Demo</title>
+  <!-- Load Video.js default CSS from CDN -->
+  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+  <!-- Favicon for the page -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Set viewport for responsive design (fixed width for demo) -->
+  <meta name="viewport" content="width=640, initial-scale=1" />
+</head>
+<body>
+  <!-- Video player element with Video.js classes and controls enabled -->
+  <video
+    id="my-video"
+    class="video-js vjs-default-skin"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+  >
+    <!-- HLS master playlist source; Video.js will handle playback -->
+    <source src="./master.m3u8" type="application/x-mpegURL" />
+    <!-- Fallback text for browsers that do not support the video tag -->
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Load Video.js JavaScript library from CDN -->
+  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script>
+    // Initialize the Video.js player for the video element
+    const player = videojs('my-video');
+    // You can add more player configuration or event listeners here if needed
+  </script>
+</body>
+</html>

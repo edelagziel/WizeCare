@@ -1,0 +1,7 @@
+russion=   ru-RU-DmitryNeural
+
+Spanish=   es-ES-ElviraNeural
+
+Arabic (Egypt)=     ar-EG-SalmaNeural
+
+portogzit (brazil)=  pt-BR-ThalitaNeural   

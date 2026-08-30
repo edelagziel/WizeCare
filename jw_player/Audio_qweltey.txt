@@ -1,0 +1,7 @@
+high: 192kbps
+
+med: 128kbps
+
+low: 64kbps
+
+verylow: 32kbps

@@ -1,0 +1,1 @@
+python -c "from transformers import pipeline; t=pipeline('translation', model='facebook/nllb-200-1.3B'); print(t('Start in a seated position. Keep your back straight and hands behind you for support.', src_lang='eng_Latn', tgt_lang='rus_Cyrl')[0]['translation_text'])"
